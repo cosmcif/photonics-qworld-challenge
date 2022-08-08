@@ -16,3 +16,5 @@ Team name: **QGirls**
 
 https://github.com/womanium-quantum/Quantum-Hardware-Education-Challenge---QWorld
 
+Challenge topic: **Introduction to Photonics Quantum Computers**
+
