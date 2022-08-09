@@ -1,11 +1,9 @@
 # Womanium Quantum Hackathon 2022 - QWorld Challenge
 
 Our solution to the challenge can be found **[here](https://cosmcif.github.io/photonics-qworld-challenge/index.html)**.
-<a href="https://cosmcif.github.io/photonics-qworld-challenge/index.html" target="_blank">Hello, world!</a>
 
 
-## Team details
-Team name: **QGirls**
+## QGirls | Team details
 | Name                     | Discord               | GitHub          | e-mail                      |
 |--------------------------|-----------------------|-----------------|-----------------------------|
 | Temitope Adeniyi         | Herostar#3246         | Temistar        | odeyomitemitope@gmail.com   |
@@ -21,3 +19,6 @@ https://github.com/womanium-quantum/Quantum-Hardware-Education-Challenge---QWorl
 
 Challenge topic: **Introduction to Photonics Quantum Computers**
 
+## Our plan
+
+lorem ipsum
