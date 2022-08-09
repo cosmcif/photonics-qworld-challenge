@@ -1,5 +1,6 @@
-# photonics-qworld-challenge
-Womanium Quantum Hackathon 2022 - QWorld Challenge
+# Womanium Quantum Hackathon 2022 - QWorld Challenge
+
+Our solution to the challenge can be found **[here](https://cosmcif.github.io/photonics-qworld-challenge/index.html)**.
 
 ## Team details
 Team name: **QGirls**
