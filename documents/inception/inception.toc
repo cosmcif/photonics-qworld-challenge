@@ -1,3 +1,9 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Team}{2}{section.2}%
 \contentsline {section}{\numberline {3}Challenge}{2}{section.3}%
+\contentsline {section}{\numberline {4}Our challenge solution}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Introduction to Photonics Quantum Computers}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Course overview}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Modules}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Exercises}{3}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Presentation}{3}{subsection.4.5}%
