@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.11)  10 AUG 2022 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.11)  10 AUG 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,6 +292,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
+
+(./inception.out) (./inception.out)
 \@outlinefile=\write3
 \openout3 = `inception.out'.
 
@@ -314,14 +316,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
-
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+ (./inception.toc)
 \tf@toc=\write4
 \openout4 = `inception.toc'.
 
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
@@ -345,32 +344,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./inception.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-
-
-Package rerunfilecheck Warning: File `inception.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `inception.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B63B7A27BEEF0CB7AC7BE9D260104DDD;130.
+Package rerunfilecheck Info: File `inception.out' has not changed.
+(rerunfilecheck)             Checksum: B63B7A27BEEF0CB7AC7BE9D260104DDD;130.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 5843 strings out of 483183
- 88502 string characters out of 5966291
- 353391 words of memory out of 5000000
- 20786 multiletter control sequences out of 15000+600000
+ 5853 strings out of 483183
+ 88621 string characters out of 5966291
+ 353475 words of memory out of 5000000
+ 20790 multiletter control sequences out of 15000+600000
  537199 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,9n,37p,310b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on inception.pdf (2 pages, 45163 bytes).
+Output written on inception.pdf (2 pages, 45516 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
