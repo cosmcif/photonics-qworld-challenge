@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.11)  10 AUG 2022 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.11)  10 AUG 2022 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,41 +340,31 @@ Overfull \hbox (9.61023pt too wide) in paragraph at lines 25--46
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./inception.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
-
-
-Package rerunfilecheck Warning: File `inception.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `inception.out':
-(rerunfilecheck)             Before: 05366111B61DD33D040A99672F1E0C0D;518
-(rerunfilecheck)             After:  629DB74485979C27705603724161EA80;426.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `inception.out' has not changed.
+(rerunfilecheck)             Checksum: 629DB74485979C27705603724161EA80;426.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 5876 strings out of 483183
- 88872 string characters out of 5966291
+ 5874 strings out of 483183
+ 88842 string characters out of 5966291
  353515 words of memory out of 5000000
- 20797 multiletter control sequences out of 15000+600000
+ 20796 multiletter control sequences out of 15000+600000
  537506 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  34i,9n,37p,406b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.4.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on inception.pdf (3 pages, 52925 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on inception.pdf (3 pages, 52974 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
