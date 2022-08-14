@@ -1,0 +1,92 @@
+body {
+  margin: 10 auto;
+	background-color: #171717ff;
+}
+
+.wrapper {
+  display: flex;
+ 	flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+@media only screen and (min-width: 290px){
+  h1 {
+  	font-family: 'Ubuntu', sans-serif;
+  	color: white;
+  	text-align: center;
+	  vertical-align: middle;
+ 	  font-weight: bold;
+  }
+
+  p {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+	vertical-align: middle;
+  font-weight: bold;
+  }
+
+  .intro {margin: 0 auto 0 auto;}
+
+}
+
+@media only screen and (min-width: 290px) and (max-width: 550px) {
+
+  h1 { font-size: 50px; }
+
+  h2 { font-size: 40px; }
+
+  h3 { font-size: 30px; }
+
+  p { font-size: 20px; }
+
+  .intro{	width: 250px; }
+}
+
+@media only screen and (min-width:551px) and (max-width: 860px) {
+
+
+  h1 { font-size: 60px; }
+
+  h2 { font-size: 40px; }
+
+  h3 { font-size: 30px; }
+
+  p { font-size: 20px; }
+
+  .intro { width: 500px; }
+
+}
+
+@media only screen and (min-width:861px) and (max-width: 1370px) {
+
+
+  h1 { font-size: 70px; }
+
+  h2 { font-size: 50px; }
+
+  h3 { font-size: 40px; }
+
+  p { font-size: 25px; }
+
+  .intro { width: 800px; }
+
+}
+
+
+@media only screen and (min-width:1371px) {
+
+
+  h1 { font-size: 90px; }
+
+  h2 { font-size: 50px; }
+
+  h3 { font-size: 40px; }
+
+  p { font-size: 25px; }
+
+  .intro { width: 1300px; }
+
+}
