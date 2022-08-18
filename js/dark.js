@@ -14,7 +14,7 @@ let lightColors = {
 }
 
 function changeIcon(isLightMode) {
-  $("#darkModeIcon").attr("src", "images/" + (isLightMode ? "darkmode" : "lightmode") + ".svg");
+  $("#darkModeIcon").attr("src", "../images/" + (isLightMode ? "darkmode" : "lightmode") + ".svg");
 }
 
 function changeColors(isLightMode) {
