@@ -1,5 +1,3 @@
-/*--MAde by Georgy Batyrev--*/
-/*-- The Following CSS webpage is a TEMPLATE and applicable to all webpages with a tag "DECADE"---*/
 @import "core.css";
 
 
@@ -10,10 +8,6 @@
 }
 
 
-/*-- Keep in mind that the header format should alwyas be the same regardless of the next background/video chosen--*/
-
-
-/*_________________________________________________________________*/
 
 .header {
   min-height: 90vh;
@@ -31,8 +25,6 @@
   filter:brightness(30%);
 }
 
-
-/*--Bakcground/ This is by all means no the final backgroubd, just an example--*/
 
 .page {
   min-height: 50px;
@@ -68,10 +60,6 @@ Please remeber that the position may be adjusted "left "top" --*/
 }
 
 
-/*_________________________________________________________________*/
-
-
-/*----Overview is a TEXT BUBBLE, where the brief information about tht decae will be located---*/
 
 .overview {
   margin: 50px auto;
@@ -96,19 +84,6 @@ Please remeber that the position may be adjusted "left "top" --*/
 }
 
 
-/*_________________________________________________________________*/
-
-
-/*---AWARDS/YEAR---*/
-
-
-/*--This is the most important place of the PAGE
-It breaks down each recepient/year and has capabilities display key information
---*/
-
-
-/*-- The row command enables us to lay out each recipient from left to right--*/
-
 .row {
   margin-top: 5%;
   display: flex;
@@ -122,11 +97,6 @@ h3 {
   color: var(--color-text-light);
 }
 
-
-/*_________________________________________________________________*/
-
-
-/* YEARS covers entire format of the section / YEAR-k is Award- specific --*/
 
 .years {
   width: 100%;
