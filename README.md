@@ -22,5 +22,7 @@ Challenge topic: **Introduction to Photonics Quantum Computers**
 ## Our plan
 
 The inception document can be found **[here](https://github.com/cosmcif/photonics-qworld-challenge/blob/main/documents/inception/inception.pdf)**.
+
 The midway document can be found **[here](https://github.com/cosmcif/photonics-qworld-challenge/blob/main/documents/midway/midway.pdf)**.
+
 The final document can be found **[here](https://github.com/cosmcif/photonics-qworld-challenge/blob/main/documents/final/final.pdf)**.
