@@ -83,8 +83,7 @@ Classically, light is understood as a part of the electromagnetic spectrum. This
         <h2 class="subtitle">Phase shifting</h2>
                 <p>This operation changes the phase of the EM field associated with a photon. Phase of an electromagnetic wave is dictated by the wave equation w.r.t space and time.</p>
     <p>In simple terms, a phase shift can simply be achieved by modifying the path length of light. For example in the diagram shown here, two waves reach the end with different phases as the medium causes the lower wave to slow down with respect to the top wave.</p>
-    <p>Mathematically, this amounts to a change in φ associated with the qubit state in the Bloch sphere. It can be seen as a rotation around the y axis.
-INSERT EQUATION</p>
+    <p>Mathematically, this amounts to a change in φ associated with the qubit state in the Bloch sphere. It can be seen as a rotation around the y axis.</p>
     <p>Practically, phase shifting can be achieved with components such as optical fibers, waveguides and any transparent material with defined length and refractive index.</p>
     <p>In the diagram shown here, the authors are achieving phase shift by using a heating element on top of the material slab (Si-WG). This heating changes the refractive index and thus changes the phase at the output w.r.t situation where no heating was applied.</p>
         <h2 class="subtitle">Beam Splitter</h2>
@@ -108,13 +107,23 @@ INSERT EQUATION</p>
     <li>Time-energy entanglement</li>
 </ol>We will now look at how entangled states are obtained in photonics. Remember that mathematically, an entangled state cannot be separated into constituent single qubit states and can only be expressed as a multi-bit state. The methods to produce entangled photons can be covered in module 2.</p>
         <h2 class="subtitle">KLM Protocol</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
+                <p>The KLM Protocol is a popular and important protocol in linear Quantum optical computing. Since photon - photon interaction and entanglement are very difficult to obtain, the KLM protocol relies on measurement and teleportation schemes to obtain entangled photonic qubits.</p>
+  <p>The KLM protocol uses photons in number state. Previously, we have only described polarization, spatial and time bin qubits. However, an interesting representation of photons is in terms of fock states. Simply put, fock states represent the number of photons in a state. Thus a qubit with fock state |2> will be measured as two photons, |1⟩ as one photon and |0⟩ represents no photons or vacuum state. </p>
+  <p>Thus an arbitrary state can be represented as: |Ψ⟩ = α |0⟩ + β |1⟩ + γ |2⟩.</p>
+  <p>Let’s now look at the schematic representation of KLM protocol. The protocol below will try to create a controlled Z gate. This gate will flip the sign of amplitude of |1⟩ if controlling qubit is |1⟩.</p>
+  <p>This protocol uses an NS gate. This is not a standard gate in quantum computing and is just a name used to describe a part of the circuit.The NS gate consists of three qubits: one qubit to flip and two qubits to assist. These states interact through three beam splitters. When the beam splitters are designed specifically, the NS gate changes the sign of the state.</p>
+  <p>|in⟩ = α |0⟩ + β |1⟩ + γ |2⟩</p>
+  <p>|out⟩ = NS |in⟩ = α |0⟩ + β |1⟩ - γ |2⟩</p>
+  <p>Note that this sign change is not always guaranteed. There is only a 25% chance that the NS gate flips the sign. This is because the sign change is guaranteed only when the the two assisting photons are measured in state |1⟩ and |0⟩ respectively.</p>
+  <p>We can now use this NS gate on a system with two Qubits: qubit 1 and qubit 2. We write down the operations below:</p>
+  <p>Initial state:</p>
+  <p>After the first Beam Splitter:</p>
+  <p>After Two NS gates:</p>
+  <p>After the second beam splitter:</p>
+  <p>Thus, this gate is able to flip the sign of second qubit only when state of first qubit is |1⟩. It should be noted that this gate has a 1/16 chance of success. For all other instances when the assisting photons are not |1⟩ and |0⟩, the gate fails. However, in photonics, the failure can be detected very accurately, and this creates possibilities for developing techniques like teleportation and error correction to still achieve large scale quantum photonic computing.</p>
+        <h2 class="subtitle">Conclusion</h2>
+                <p>In this module we discovered how to connect the hardware of photon manipulation to qubit operation. We learnt about a few ways in which photons can carry information and also detailed simplified photonic qubit gates to serve as building blocks of PQC.</p>
+                <p>It should be kept in mind that the challenges of universal quantum computing require way more complex and ingenious engineering of these hardware blocks. However, with one step at a time we can learn something new everyday!</p>
       </div>
       <!-- Element: Image -->
       <div class="col-md-5">
