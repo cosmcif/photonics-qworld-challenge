@@ -56,6 +56,9 @@ Some examples of photon state representation are:
                 <p>Let’s look at one way of representing information in photons: polarization.
 Classically, light is understood as a part of the electromagnetic spectrum. This can be visualized as a synchronous oscillation of electric and magnetic fields.</p>
       <p>Polarization of an electromagnetic field can be visualized as synchronous oscillations of electric and magnetic fields. These are always mutually perpendicular to each other. For example, in the image below, the E and B represent electric and magnetic fields oscillating perpendicular to the direction of propagation of light.</p>
+      <p></p>
+        <img src="image27.png">
+        <p></p>
       <p>We can represent polarization states as vectors similar to qubit states. For Qubits, we use states 0 and 1. For polarization, we can use states horizontal (H) and vertical (V).</p>
       <p>|Q⟩ = α |0⟩ + β |1⟩</p>
       <p>|P⟩ = α |H⟩ + β |V⟩</p>
@@ -66,11 +69,17 @@ Classically, light is understood as a part of the electromagnetic spectrum. This
       <p>|S⟩ = α |0,1⟩ + β |1,0⟩</p>
       <p>Where |0,1⟩ and |1,0⟩ are two orthonormal spatial modes. It should be noted that both polarization and spatial mode represent the same photon only in different basis space. Spatial-mode qubits would not be very practical for transmitting quantum information since the phase between |0 and |1 is easily randomized by different environments acting on the different modes.</p>
       <p>In the figure provided, we can see the photons being split into two paths and combined using a beam splitter and mirrors. This device is commonly known as an interferometer and is a key concept in many quantum photonic circuits. The photon exists in a superposition of path a and path b.</p>
+      <p></p>
+        <img class="brd-round" src="image35.png">
+        <p></p>
         <h2 class="subtitle">Time bin Qubit</h2>
                 <p>In this type of qubit encoding, the photons are considered to be in a superposition of mode of different time slots. These time slots can be seen as two different emission times or two different detection times of the photon.</p>
       <p>Thus, similar to other encodings, we assign a state to two different time-stamps in a system and a photon can be written as</p>
       <p>|T⟩ = α |0⟩ + β |1⟩</p>
       <p>Where the states 0 and 1 are specific time stamps where a photon detection is made. In the conceptual diagram here, we can see generation of time encoded photons as a “variable coupler” splits photons into two different paths with different lengths and the photons arrive at different times in the output.</p>
+      <p></p>
+        <img class="brd-round" src="image43.png">
+        <p></p>
         <h2 class="subtitle">Single Photonic Qubit gates</h2>
                 <p>Photonic gates are operations of qubits which alter the state of superposition. This can cause a change in polarization or time delay or the phase(imaginary component) of a qubit. A gate in terms of hardware is a transformation of a system state. Some popular transformation components used in photonic computing are:
 <ol>
@@ -80,12 +89,26 @@ Classically, light is understood as a part of the electromagnetic spectrum. This
     <li>Polarizing beam splitter</li>
     <li>Interferometer</li>
 </ol>These components can be used to build photonic gates such as CNOT, Hadamard, Rotation etc. We will look at what these components are, how they are built and what they achieve in the Bloch sphere. For recap, below is an image of the Bloch sphere and the state representation:</p>
+    <p></p>
+        <img class="brd-round" src="image21.png">
+        <p></p>
+    <img src="image24.png">
+    <p></p>
         <h2 class="subtitle">Phase shifting</h2>
                 <p>This operation changes the phase of the EM field associated with a photon. Phase of an electromagnetic wave is dictated by the wave equation w.r.t space and time.</p>
     <p>In simple terms, a phase shift can simply be achieved by modifying the path length of light. For example in the diagram shown here, two waves reach the end with different phases as the medium causes the lower wave to slow down with respect to the top wave.</p>
-    <p>Mathematically, this amounts to a change in φ associated with the qubit state in the Bloch sphere. It can be seen as a rotation around the y axis.</p>
+    <p></p>
+        <img class="brd-round" src="image22.png">
+        <p></p>
+    <p>Mathematically, this amounts to a change in φ associated with the qubit state in the Bloch sphere. It can be seen as a rotation around the y-axis.</p>
+    <p></p>
+        <img src="image46.png">
+        <p></p>
     <p>Practically, phase shifting can be achieved with components such as optical fibers, waveguides and any transparent material with defined length and refractive index.</p>
     <p>In the diagram shown here, the authors are achieving phase shift by using a heating element on top of the material slab (Si-WG). This heating changes the refractive index and thus changes the phase at the output w.r.t situation where no heating was applied.</p>
+    <p></p>
+        <img class="brd-round" src="image52.png">
+        <p></p>
         <h2 class="subtitle">Beam Splitter</h2>
                 <p>As the name suggests, a beam splitter is a simple device which separates beams. For Qubit processing it modifies the spatial mode of a qubit by changing the probability amplitudes.</p>
     <p>A simple beam splitter is a partially reflecting mirror which reflects or transmits photons with some probability. These operations can transform both the phi and theta of the state in the Bloch sphere. This happens because the operation of reflection causes phase shift and the partial transmission changes the theta.</p>
@@ -127,7 +150,12 @@ Classically, light is understood as a part of the electromagnetic spectrum. This
       </div>
       <!-- Element: Image -->
       <div class="col-md-5">
-        <img class="brd-round" src="../images/lego1.png">
+        <p></p>
+        <img class="brd-round" src="image31.png">
+        <p></p>
+        <img class="brd-round" src="image27.png">
+        <p></p>
+        <img class="brd-round" src="image42.png">
         <p></p>
       </div>
     </div>
