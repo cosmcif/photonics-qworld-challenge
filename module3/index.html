@@ -79,21 +79,35 @@ Classically, light is understood as a part of the electromagnetic spectrum. This
     <li>Polarization rotation</li>
     <li>Polarizing beam splitter</li>
     <li>Interferometer</li>
-</ol>These components can be used to build photonic gates such as CNOT, Hadamard, Rotation etc. We will look at what these components are, how they are built and what they achieve in the Bloch sphere. For recap, below is an image of the Bloch sphere and the state representation:
-</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
-                <p>.</p>
-        <h2 class="subtitle">subtitle</h2>
+</ol>These components can be used to build photonic gates such as CNOT, Hadamard, Rotation etc. We will look at what these components are, how they are built and what they achieve in the Bloch sphere. For recap, below is an image of the Bloch sphere and the state representation:</p>
+        <h2 class="subtitle">Phase shifting</h2>
+                <p>This operation changes the phase of the EM field associated with a photon. Phase of an electromagnetic wave is dictated by the wave equation w.r.t space and time.</p>
+    <p>In simple terms, a phase shift can simply be achieved by modifying the path length of light. For example in the diagram shown here, two waves reach the end with different phases as the medium causes the lower wave to slow down with respect to the top wave.</p>
+    <p>Mathematically, this amounts to a change in φ associated with the qubit state in the Bloch sphere. It can be seen as a rotation around the y axis.
+INSERT EQUATION</p>
+    <p>Practically, phase shifting can be achieved with components such as optical fibers, waveguides and any transparent material with defined length and refractive index.</p>
+    <p>In the diagram shown here, the authors are achieving phase shift by using a heating element on top of the material slab (Si-WG). This heating changes the refractive index and thus changes the phase at the output w.r.t situation where no heating was applied.</p>
+        <h2 class="subtitle">Beam Splitter</h2>
+                <p>As the name suggests, a beam splitter is a simple device which separates beams. For Qubit processing it modifies the spatial mode of a qubit by changing the probability amplitudes.</p>
+    <p>A simple beam splitter is a partially reflecting mirror which reflects or transmits photons with some probability. These operations can transform both the phi and theta of the state in the Bloch sphere. This happens because the operation of reflection causes phase shift and the partial transmission changes the theta.</p>
+    <p>Practically, a beam splitter can be realized using special mirrors. In integrated circuits, beam splitters are ingeniously created using waveguides (light paths in circuits) where the circuit design forces splitting of light.</p>
+    <p>The figure here shows an integrated photonic circuit which can act as a hadamard gate. The Qubit here are represented in terms of modes of the device geometry and are modified spatially.</p>
+        <h2 class="subtitle">Polarization Rotation</h2>
+                <p>Similar to phase shifting components which change the phase of spatial mode qubits, polarization rotation components rotate the Phi for polarization Qubits. Practically, a polarization rotation can be obtained with components such as wave plates. Wave plates can change the polarization direction and type. The gate operation is a rotation about the Y axis.</p>
+        <h2 class="subtitle">Polarizing Beam Splitter</h2>
+                <p>As you can already guess, a polarizing beam splitter splits incident photons into two orthonormal polarization states. Similar to a spatial beam splitter, it can be used as a qubit operator to modify both the theta and phi of a photon.</p>
+        <h2 class="subtitle">Interferometer</h2>
+                <p>An interferometer is a device which can take a set of states and output another set of states. A simple interferometer can be constructed with beam splitters and phase shifters.</p>
+    <p>In the figure here, we can see a mach-zehnder interferometer being built using two beam splitter (BS), two mirrors (M), one phase shifter (φ), and two detectors (D). This device can be extended to do tomography of the input state. However, the conceptual details of this processing have already been covered in QBronze.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmIS8hFR76Tsi6YCnuo4LmmgRvtp1Q0XK4iCfppnK3nAckdA/viewform?embedded=true" width="100%" height="633" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <h2 class="subtitle">Entanglement</h2>
+                <p>Entanglement is one of the phenomena that differentiates quantum computers. As such, it’s important for a hardware platform to explore entangled qubit processing. Similar to single photon Qubit encoding, entangled photons can also be in many state spaces. Following are some examples:
+                  <ol>
+    <li>Polarization entanglement</li>
+    <li>Mode/Momentum entanglement</li>
+    <li>Time-energy entanglement</li>
+</ol>We will now look at how entangled states are obtained in photonics. Remember that mathematically, an entangled state cannot be separated into constituent single qubit states and can only be expressed as a multi-bit state. The methods to produce entangled photons can be covered in module 2.</p>
+        <h2 class="subtitle">KLM Protocol</h2>
                 <p>.</p>
         <h2 class="subtitle">subtitle</h2>
                 <p>.</p>
