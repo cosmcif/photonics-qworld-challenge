@@ -29,7 +29,7 @@
           </div>
         </a>
         <a href="#" class="nav-item" id="switchDarkMode" title="Click to switch to dark mode">
-          <img class="svg" id="darkModeIcon" src="../images/darkmode.svg" alt="menu" height="100px" width="100px">
+          <img class="svg" id="darkModeIcon" src="....//images/darkmode.svg" alt="menu" height="100px" width="100px">
         </a>
       </div>
     </div>
@@ -37,10 +37,11 @@
   <!--    MAIN    -->
   <section class="container clr-light">
     <!-- Element: Title -->
-    <h1 class="title">Module 3 - Quantum Integrated Photonics Chips</h1>
+    <h1 class="title">Module 3 - Photonic Qubit Processing</h1>
     <!-- Element: Split Screen -->
     <div class="row">
       <div class="col-md-7 paragraph">
+        <h2>Quantum Integrated Photonics Chips</h2>
         <p>A light beam has different properties, such as:
         <ol>
     <li>Total power</li>
@@ -49,13 +50,19 @@
     <li>Polarization</li>
     <li>Wavelength</li>
 </ol>The quantum properties of light can be manipulated to encode computational problems and to carry information. In photonic quantum computers, the properties of input light particles (photons) are manipulated, and then the properties of output photons are measured and detected.<br>
-Different optical components such as beam splitters and phase shifters could be used for manipulating the light. In linear-circuits, optical components are described by transmission matrices. In order to use optical components for computing, the quantum unitary gates must be implemented in the form of a matrix transformation applied to the input-photons’ states (Image 1).<br>
+Different optical components such as beam splitters and phase shifters could be used for manipulating the light. In linear-circuits, optical components are described by transmission matrices. In order to use optical components for computing, the quantum unitary gates must be implemented in the form of a matrix transformation applied to the input-photons’ states.<br>
 The picture below shows a quantum optical set-up which was built on an optical table with an area about 3 square meters and was used for creating a 100-mode photonic quantum processor. But to achieve the quantum advantage, more qubits are needed, so using the bulky optical components is not feasible for this aim.
 </p> <p></p>
       <img class="brd-round" src="2.jpg">
         <p></p>
-      <p>The solution for this is Integrated Photonics technology. Image 2 shows a comparison of a bulky and integrated Mach-Zehnder interferometer (top) and a quantum teleportation set-up (bottom) based on their size.</p>
+      <p>The solution for this is Integrated Photonics technology. The image below shows a comparison of a bulky and integrated Mach-Zehnder interferometer (top) and a quantum teleportation set-up (bottom) based on their size.</p>
+      <p></p>
+      <img class="brd-round" src="3.jpg">
+      <p></p>
       <p>Mach-Zender interferometers are the building blocks of the programmable photonic chips which are used for photonics quantum computers. They consist of two beam splitters and internal and external phase shifters. By using tunable phase shifters, any arbitrary state on the Bloch-sphere is achievable.</p>
+      <p></p>
+      <img class="brd-round" src="4.jpg">
+      <p></p>
       <p>In other words, a phase shifter in a Mach-Zender configuration can act as a switch. There are several ways that phase shifters can be constructed, including thermo-electric effect, electro-optical effect, and electro-mechanical effect. With a mesh of Mach-Zender interferometers, we can construct a multiport interferometer that is called a universal unitary photonic chip. In the image below, a silicon photonic chip is shown. </p>
       <p></p>
         <img class="brd-round" src="5.jpg">
@@ -66,26 +73,28 @@ The picture below shows a quantum optical set-up which was built on an optical t
       <img class="brd-round" src="6.jpg">
         <p></p>
       <p>A single-mode phase shifter can perform an arbitrary U(1) transformation eiφ on its input. A phase-modulated Mach-Zehnder interferometer (MZI) with perfect (50 : 50) beamsplitters can apply to its inputs a unitary transformation U of the form:</p>
+      <p></p>
+      <img src="7.jpg">
+      <p></p>
       <p>where B is the beam splitter operator, Rθ, Rφ are upper phase shift operators. If one or two single-mode phase shifters are added at the inputs, we can apply an arbitrary SU(2) or U(2) transformation to the inputs, respectively. We define the transmissivity and reflectivity of the MZI as: </p>
+      <p></p>
+      <img src="8.jpg">
+      <p></p>
       <p>In this convention, when θ = π, we have r = 1, t = 0 (the MZI “bar state”), and when θ = 0, we have r = 0, t = 1 (the MZI “cross state”). </p>
       <p>Universal 𝑁-mode multiport interferometer (shown here for 𝑁=8) can be implemented using a mesh of 𝑁(𝑁−1)/2 MZIs.</p>
       <p>An ideal, lossless multiport interferometer between 𝑁channels performs an optical transformation which can be described by an 𝑁×𝑁 unitary scattering matrix 𝑈 acting on electric fields as 𝑬out=𝑈𝑬in. Equivalently, in quantum optics, 𝑈 describes the transformation of the creation or annihilation operators of the input modes to those of the output modes.</p>
       <p>If there are N input modes and the interferometer is connected to waveguides n and n + 1 then we can embed the 2 × 2 unitary U from Equation 1 in N-dimensional space with a Un defined as:</p>
+      <p></p>
+      <img src="9.jpg">
+      <p></p>
       <p>Choosing the suitable photonic mesh architecture and initialization of the components may have a critical role in maximizing the scalability and stability of reconfigurable universal photonic devices regarding the expected application. In the picture the most common MZI mesh topologies for implementing unitary matrix transformations are illustrated: (a) triangular, (b) rectangular, and (c) diamond.</p>
+      <p></p>
+      <img src="10.jpg">
+      <p></p>
       </div>
       <!-- Element: Image -->
       <div class="col-md-5">
         <img class="brd-round" src="1.jpg">
-        <p></p>
-        <p>Image 1</p>
-        <p></p>
-        <img class="brd-round" src="3.jpg">
-        <p>Image 2</p>
-        <p></p>
-        
-        <img class="brd-round" src="4.jpg">
-        <p>Image 3</p>
-        <p></p>
       </div>
     </div>
     <!--TODO: Add table-->
